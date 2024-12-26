@@ -52,6 +52,8 @@ $config = [
         */
     ],
     'params' => $params,
+    'defaultRoute' => 'home/index',
+    'name' => 'Пример',
 ];
 
 if (YII_ENV_DEV) {
